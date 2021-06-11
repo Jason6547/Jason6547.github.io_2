@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Jason</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!-- 
+
+Hello Camper!
+
+Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="eng">
+<header>
+  <meta charset="utf-8">
+  <h1 id="title">freeCodeCamp Experience Evaluation</h1>
+  <p id="description">Evaluate your experience in freeCodeCamp Web Responsive Course</p>
+</header>
+<form id="form-survey">
+  <label for="name">Name</label>
+  <input id="name" class="name" type="text" placeholder="Enter your name" required />
+  <br>
+  <label for="email">Email</label>
+  <input id="email" type="text" class="email" placeholder="Enter your email" required />
+  <br>
+  <label for="age">Age<span>(optional)</span>
+    <input id="age" type="number" max="99" min="10" placeholder="Age" />
+  </label>
+  <br>
+  <div>
+    <label for="year">Which year did you started coding?</label>
+    <input id="year" type="number" max="2100" min="1980" placeholder="Year" />
+  </div>
+  <br>
+
+  <div>
+    <label for="experience">What's your experience level now?</label>
+    <select id="experience" required>
+      <option disabled selected value>Select your experience now</option>
+      <option value="newbie">Newbie</option>
+      <option value="junior">Junior</option>
+      <option value="intermediate">Intermediate</option>
+      <option value="advanced">Advanced</option>
+      <option value="guru">Guru</option>
+    </select>
+  </div>
+  <div id="languages">
+    <p>What languages did you learn until now?</p>
+    <label for="java">
+      <input id="java" class="java" type="checkbox" name="languages" value="java" />Java</label>
+<label for="c">
+      <input id="c" type="checkbox" name="languages" value="c" />C</label>
+    <label for="cplus">
+      <input id="cplus" type="checkbox" name="languages" value="cplus">C++</label>
+    <label for="csharp">
+      <input id="csharp" type="checkbox" name="languages" value="csharp">C#</label>
+    <label for="python">
+      <input id="python" type="checkbox" name="languages" value="python">Python</label>
+    <label for="javascript">
+<input id="javascript" type="checkbox" name="languages" value="javascript">JavaScript</label>
+    <label for="php">
+      <input id="php" type="checkbox" name="languages" value="php" />PHP</label>
+    <label for="ruby">
+      <input id="ruby" type="checkbox" name="languages" value="ruby">Ruby</label>
+    <label for="html">
+      <input id="html" type="checkbox" name="langugaes" value="html">HTML</label>
+<label for="css">
+      <input id="css" type="checkbox" name="languages" value="css">CSS</label>
+    <label for="visualbasic">
+      <input id="visualbasic" type="checkbox" name="languages" value="visualbasic" />Visual Basic .NET</label>
+    <label for="sql">
+      <input id="sql" type="checkbox" name="languages" value="sql" />SQL</label>
+    <label for="others">
+      <input id="others" type="checkbox" name="languages" value="others" />Others</label>
+</div>
+  <section>
+    <p>Were the freeCodeCamp subjects useful for learning?</p>
+    <input id="yes" type="radio" value="yes" name="useful" />
+    <label for="yes">Yes</label>
+    <input id="no" type="radio" value="no" name="useful">
+    <label for="no">No</label>
+  </section>
+  <section>
+    <p>Would you recommend freeCodeCamp to a friend?</p>
+    <input value="definitely" name="recommendation" type="radio">
+<label>Definitely</label>
+    <input value="maybe" name="recommendation" type="radio">
+    <label>Maybe</label>
+    <input value="not-sure" name="recommendation" type="radio">
+    <label>Not Sure</label>
+  </section>
+  <section>
+    <p>Give us your opinion:</p>
+    <textarea id="comments" name="comment" placeholder="Enter your opinion here..."></textarea>
+  </section>
+  <button type="submit" id="submit">Submit</button>
+</form>
+
+</html>
+<!-- partial -->
+  <script src='https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
